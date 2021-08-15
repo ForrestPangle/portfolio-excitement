@@ -7,45 +7,73 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/style.css">
         <title>Forrest Pangle Portfolio</title>
       </head>
 </head>
 
 <Body>
     <!--This is the main header-->
-    <header class="header">
+<header>
     <h1>Forrest Pangle</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#crypto">The Future of digital payments!</a> 
+                    <a href="#about-me">About Me</a> 
                 </li>
                 <li>
-                    <a href="#previous-work">Previous work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#about-me">About me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
                 <li> 
-                    <a href="#contact-me">Contact me!</a> 
+                    <a href="#resume">Resume</a> 
                 </li>
             </ul>
         </nav>
     </header>
-    <figure class="hero"></figure>
-    <main class="content">
-        <figure id="crypto" class="crypto">
-            <img src="./assets/Bitcoin-Blockchain-Cryptocurrency-Currency-851x315.jpg" class="header"/>
+    <section class="banner">
+        <div class="subtitle"> Cool Subtitle Here</div>      
+    </section>
+    <main>
+        <section class=leftside>
+            <div class="about">About Me</div>
+            <div class="work">Work</div>
+            <div class="contact">Contact Me</div>
+        </section>
+        <section class=rightside>
+            <div class="paragraphs">
+                <div class="paragraph1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sunt consequuntur eligendi quos distinctio veritatis delectus voluptatem eum nobis, eius minus suscipit quod facilis quam temporibus illo fuga quas doloremque.</div>
+                <div class="paragraph2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur quisquam debitis repellat, veritatis est earum eaque, nisi maxime corrupti deserunt libero autem ratione aliquid dolorem explicabo at alias aperiam?</div>
+            </div>
+            <div class="projects">
+                <div class="project1"></div>
+                <div class="project2"></div>
+                <div class="project3"></div>
+                <div class="project4"></div>
+                <div class="project5"></div>
+            </div>
+            <div class="contact-me">
+                <h4 class="phone-number">555-555-5555</h4>
+                <h4 class="github">Github</h4>
+                <h4 class="linkedin">LinkedIn</h4>
+                <h4 class="facebook">Facebook</h4>
+
+            </div>
+        </section>
+
+        <figure id="crypto" class="crypto"></figure>
             <h1>My Projects</h1>
             <p>
-                The dominance of a decentralized blockchain finance system has the potentional to help everyday people accumulate wealth. The governments and big banks have never really
-                liked it...Wouldn't it be a shame if the average citizen could stop living paycheck to paycheck!
+                The dominance of a decentralized blockchain finance system has the potentional to help everyday people accumulate wealth. The governments and big banks have 
+                never really liked it...Wouldn't it be a shame if the average citizen could stop living paycheck to paycheck! However, the most I have done in the past
+                was run a private server video game based off of RuneScape in a special programming language called runescript.js however it is no longer live but I can 
+                provided a youtube video a fan uploaded many years ago. 
             </p>
-        </figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RjiGBITfhiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <figure id="blockchain" class="blockchain">
-            <img src=./assets/placeholder.png) class="float-right" alt="soon to come"/>
-            <h2>I find the decentralization of certain cryptocurrencies to be very intriquing</h2>
+            <h2>I find the decentralization of certain cryptocurrencies and other technologies related to blockchains to be very intriquing</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows some people with an internet connection to say whatever they want about their opinions.
                 Others do not. Rumble gives everybody the control over what they can say as long as it is not against the law. The first ammendment to the constitution applies when you 
@@ -53,7 +81,7 @@
             </p>
         </figure>
         <figure id="personal" class="personal">
-            <img src="./assets/placeholder.png" class="float-left" alt="idk yet"/>
+            <img src="./assets/defi photo.jpeg" class="float-left" alt="decentralized finance"/>
             <h2>About me</h2>
             <p>
                 geeeze im starting to have to use too many placeholders
@@ -61,22 +89,23 @@
         </figure>
         <figure class="volatile-chart">
             <h3>Public Awareness, volatility, and fear mongering</h3>
-            <img src="placeholder.png" alt="Volatile chart"/>
+            <img src="assets/volatility.png" alt="Volatile chart"/>
             <p>
                 People in general have always been skeptical of digital assets. 
             </p>
+        </figure>
     <figure class="futuregains">
         <h3>Hedge against inflation!</h3>
-        <img src="./assets/placeholder.png" alt="more revenue/passive income"/>
+        <img src="./assets/inflation.jpeg" alt="usd inflation chart"/>
         <p>
             As the market matures and emerges there will be more adoption and .
         </p>
     </figure>
 </main>
-    <aside class="futuregains">
+    <div class="futuregains">
         <figure class="about-me">
             <h4>Contact me!</h4>
-            <img src="./assets/placeholding" alt="idk yet"/>
+            <img src="./assets/holdo.jpeg" alt="probably picture of me"/>
             <p>
                 I am currently a couple weeks into my first coding bootcamp and although it is very challenging to me it is safe to say I am enjoying it!
             </p>
@@ -85,6 +114,7 @@
         <p>Made with Visual Studio Code</p>
         <p>
             &copy; 2021 Visual Studio Code, Inc.
+            <!--copywrite-->
         </p>
     </footer>
 </body>
